@@ -24,3 +24,12 @@ git checkout main // 기본 브랜치가 main인 경우
 git checkout -b 브랜치이름
 ex) git checkout -b apply-feedback
 ```
+
+-- 기능 목록
+[] 1부터 9까지 다른 수로 이루어진 3자리 랜덤 수 #createRandomBalls
+[] 컴퓨터와 플레이어 수 비교 #compareBalls
+    [] 몇 개가 같은지 확인 #sameBallCount
+    [] 특정 자리에 특정 숫자 비교 #hasPosition
+[] 같은 자리 같은 수이면 스트라이크
+[] 다른 자리 같은 수이면 볼
+[] 같은 수가 없으면 낫싱
